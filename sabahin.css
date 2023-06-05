@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: orange;
+    height: 2500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.esaslar{
+    display: flex;
+    flex-direction: row;
+    flex: 1fr 2fr 1fr;
+}
+.esaslar nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.a{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+.b{
+    position: absolute;
+    top: 50px;
+    right: 40px;
+}
+.white-ball{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 12px;
+}
+.start{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+.topic{
+    border-bottom: 2px solid rgb(62, 6, 100);
+    color: white;
+    font-size: 19px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.one-main{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.info{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+.ramal{
+    padding: 20px 30px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 19px;
+    width: 400px;
+    border-radius: 10px;
+}
+main{
+    position: absolute;
+    right: 35%;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.one{
+    padding: 3px 10px;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    width: 150px;
+}
+.one-tip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+span{
+    margin-left: 70px;
+    margin-top: 5px;
+    color: white;
+}
+.one-tips{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 300px;
+    height: 150px;
+    object-fit: cover; 
+    margin:10px 0
+}
+.two-tips{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.reaction{
+    color: white;
+    font-weight: bold;
+}
+table,th,td{
+    border: 1px solid;
+}
+table{
+    
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    height: 50px;
+}
+th,td{
+    text-align: center;
+    padding: 0 10px;
+}
+.amil{
+    padding: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
